@@ -5,3 +5,5 @@ CASTAWAY CINEMA - MOVIE LIST
 3. Inception
 4. The Dark Knight
 5. Avatar
+6. Lovely Bones
+7. Light House

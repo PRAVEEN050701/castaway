@@ -15,6 +15,8 @@ def movies():
         "movies": [
             "Castaway",
             "Interstellar",
-            "Inception"
+            "Inception",
+            "Lovely Bones",
+            "Light House"
         ]
     }
