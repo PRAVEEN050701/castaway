@@ -7,3 +7,5 @@ CASTAWAY CINEMA - MOVIE LIST
 5. Avatar
 6. Lovely Bones
 7. Light House
+8. Dune
+9. Oppenheimer

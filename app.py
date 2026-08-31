@@ -17,6 +17,22 @@ def movies():
             "Interstellar",
             "Inception",
             "Lovely Bones",
-            "Light House"
+            "Light House",
+            "Dune",
+            "Oppenheimer"
         ]
+    }
+@app.get("/about")
+def about():
+    return {
+        "name": "Castaway Cinema",
+        "location": "Chennai",
+        "type": "Cinema Management System"
+    }
+@app.get("/version")
+def version():
+    return {
+        "message": "Welcome to Castaway Cinema",
+        "status": "Application is running",
+        "version": "1.1"
     }
