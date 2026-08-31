@@ -22,4 +22,10 @@ def movies():
             "Oppenheimer"
         ]
     }
-    
+@app.get("/about")
+def about():
+    return {
+        "name": "Castaway Cinema",
+        "location": "Chennai",
+        "type": "Cinema Management System"
+    }
