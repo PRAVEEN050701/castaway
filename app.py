@@ -6,18 +6,18 @@ app = FastAPI()
 def home():
     return {
         "message": "Welcome to Castaway Cinema - India",
-        "status": "Application is running",
-        "version": "1.1"
+        "status": "Application not  running",
+        "version": "0.1"
     }
 
 @app.get("/movies")
 def movies():
     return {
         "movies": [
-            "Castaway",
-            "Interstellar",
-            "Inception",
-            "Lovely Bones",
+            "Cast",
+            "stellar",
+            "Ince",
+            "Lovely nes",
             "Light House",
             "Dune",
             "Oppenheimer"
