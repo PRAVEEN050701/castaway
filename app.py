@@ -29,3 +29,10 @@ def about():
         "location": "Chennai",
         "type": "Cinema Management System"
     }
+@app.get("/version")
+def version():
+    return {
+        "message": "Welcome to Castaway Cinema",
+        "status": "Application is running",
+        "version": "1.1"
+    }
