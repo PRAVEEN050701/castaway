@@ -17,7 +17,9 @@ def movies():
             "Interstellar",
             "Inception",
             "Lovely Bones",
-            "Light House"
+            "Light House",
+            "Dune",
+            "Oppenheimer"
         ]
     }
     
